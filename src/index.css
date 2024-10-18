@@ -1,0 +1,133 @@
+body {
+  max-width: 800px; /* Set a maximum width for the entire page */
+  margin: 0 auto; /* Center the body horizontally */
+  padding: 20px; /* Optional: Add some padding around the content */
+}
+
+.container {
+  width: 100%; /* Ensure the container takes the full width of the body */
+  padding: 15px; /* Add padding inside the container */
+  border-radius: 8px; /* Optional: Rounded corners for the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+  background-color: hsl(227, 6%, 71%);
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  background-color: hsl(0, 3%, 86%);
+
+}
+h1{
+  
+  text-align: center;
+}
+.head {
+  color: hsl(244, 67%, 8%);
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  background-color: hsl(208, 29%, 67%);
+  padding: 3px 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text in the heading */
+  max-height: 40px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.head img {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  margin-left: 7px; /* Optional: space between h1 and img */
+  border-radius: 50%;
+}
+.display-list{ 
+  background-color: hsl(240, 9%, 53%);
+  padding: 4px; /* Remove padding from the container */
+  margin: 0; /* Remove margin from the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.display-list ol {
+  padding: 1px; /* Remove padding from the ordered list */
+  margin: 1px; /* Remove margin from the ordered list */
+}
+.display-list button {
+  margin-left: 5px; /* Espace entre les boutons */
+  padding: 5px 10px; /* Espacement interne */
+  background-color: hsl(208, 29%, 67%); /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprimer la bordure */
+  border-radius: 3px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer au survol */
+  transition: background-color 0.3s; /* Transition pour effet au survol */
+}
+
+.display-list button:hover {
+  background-color: hsl(209, 45%, 86%); /* Couleur de fond au survol */
+}
+
+.display-list li {
+  display: flex; /* Utiliser Flexbox pour aligner les éléments */
+  justify-content: space-between; /* Espacement entre le texte et les boutons */
+  align-items: center; /* Centrer verticalement */
+  padding: 5px; /* Espacement interne pour la li */
+  background-color: hsl(240, 14%, 58%); /* Couleur de fond pour les li */
+  color: white; /* Couleur du texte des li */
+  margin: 6px 0px; /* Marge entre les éléments de liste */
+  border-radius: 3px; /* Coins arrondis pour li */
+  cursor: pointer; /* Change le curseur en main au survol */
+  padding-left: 15px; /* Move li a little bit to the right */
+ }
+.display-list li:hover {
+  background-color: hsla(253, 15%, 53%, 0.61); /* Optionnel : Changer la couleur de fond au survol */
+}
+.display-list button {
+  margin: 0 5px; /* Adjusts the horizontal space between buttons */
+  padding: 5px 10px; /* Optional: adjusts the padding for the buttons */
+}
+.task-input-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+  margin-top: 20px; /* Space above the container */
+  padding: 15px; /* Padding inside the container */
+  background-color: hsl(240, 9%, 53%); /* Light background for the input area */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: hsl(240, 9%, 53%);
+}
+
+.task-input-container h2 {
+  margin-bottom: 10px; /* Space below the heading */
+  color: hsl(208, 80%, 10%); /* Darker color for contrast */
+  font-size: 1.5rem; /* Font size for heading */
+}
+
+.task-input-container input {
+  width: 100%; /* Full width input */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid hsl(0, 0%, 80%); /* Light border */
+  border-radius: 4px; /* Rounded corners for input */
+  font-size: 1rem; /* Font size for input */
+  margin-bottom: 10px; /* Space below the input */
+  color: hsl(208, 79%, 11%);
+  background-color: hsl(208, 29%, 67%);
+}
+
+.task-input-container button {
+  background-color: hsl(208, 29%, 67%); /* Button color */
+  color: white; /* Button text color */
+  padding: 10px 15px; /* Padding inside button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.task-input-container button:hover {
+  background-color:hsl(209, 45%, 86%); /* Darker color on hover */
+}
